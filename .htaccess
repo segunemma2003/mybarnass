@@ -1,0 +1,68 @@
+# BEGIN HMWP_VULNERABILITY
+<IfModule mod_headers.c>
+Header always unset x-powered-by
+Header always unset server
+ServerSignature Off
+</IfModule>
+
+<IfModule mod_headers.c>
+Header set Strict-Transport-Security "max-age=15768000;includeSubdomains"
+Header set Content-Security-Policy "object-src 'none'"
+Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+
+
+# END HMWP_VULNERABILITY
+# BEGIN HMWP_RULES
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^([_0-9a-zA-Z-]+/)?dashboard/(.*) /wp-admin/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?backend$ /wp-login.php [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?backend/(.*) /wp-login.php$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?lostpass$ /wp-login.php?action=lostpassword [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?register$ /wp-login.php?action=register [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/68f0c691b0/(.*) /wp-content/plugins/WPShapere/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/434b8996f4/(.*) /wp-content/plugins/classic-editor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/ccc473c329/(.*) /wp-content/plugins/elementor-pro/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/f65f29574d/(.*) /wp-content/plugins/elementor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/ee3d367a9e/(.*) /wp-content/plugins/elementskit-lite/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/d0f4711431/(.*) /wp-content/plugins/hide-my-wp/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/0b08bab935/(.*) /wp-content/plugins/skyboot-custom-icons-for-elementor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/02895c4bc7/(.*) /wp-content/plugins/template-kit-import/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/a3c351fbc7/(.*) /wp-content/plugins/tutor-lms-elementor-addons/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/144c3597b3/(.*) /wp-content/plugins/tutor-pro/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/1b166b7e2f/(.*) /wp-content/plugins/tutor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/bf56e642ca/(.*) /wp-content/plugins/updraftplus/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/86b805cfff/(.*) /wp-content/plugins/waspthemes-yellow-pencil/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/(.*) /wp-content/plugins/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/7a3fccae50/design.css$ /wp-content/themes/hello-elementor/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/7a3fccae50/(.*) /wp-content/themes/hello-elementor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/51a12ba5b2/design.css$ /wp-content/themes/twentytwentyfour/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/51a12ba5b2/(.*) /wp-content/themes/twentytwentyfour/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/(.*) /wp-content/themes/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?storage/(.*) /wp-content/uploads/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/(.*) /wp-content/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?lib/(.*) /wp-includes/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?comments/(.*) /wp-comments-post.php$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?writer/(.*) /author/$2 [QSA,L]
+</IfModule>
+
+
+# END HMWP_RULES
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

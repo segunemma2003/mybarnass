@@ -1,0 +1,1651 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "ByteSkill - template kit for Online Course for IT",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Bootcamp",
+            "screenshot": "screenshots\/bootcamp.jpg",
+            "source": "templates\/bootcamp.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/template-kit\/bootcamp\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Course",
+            "screenshot": "screenshots\/single-course.jpg",
+            "source": "templates\/single-course.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/template-kit\/single-course\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Courses",
+            "screenshot": "screenshots\/courses.jpg",
+            "source": "templates\/courses.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/template-kit\/courses\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing plan",
+            "screenshot": "screenshots\/pricing-plan.jpg",
+            "source": "templates\/pricing-plan.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/template-kit\/pricing-plan\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "ByteSkill - Error 404",
+            "screenshot": "screenshots\/byteskill-error-404.jpg",
+            "source": "templates\/byteskill-error-404.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/?elementor_library=byteskill-error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "ByteSkill - Single post",
+            "screenshot": "screenshots\/byteskill-single-post.jpg",
+            "source": "templates\/byteskill-single-post.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/?elementor_library=byteskill-single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "ByteSkill - Archive",
+            "screenshot": "screenshots\/byteskill-archive.jpg",
+            "source": "templates\/byteskill-archive.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/?elementor_library=byteskill-archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "ByteSkill - Footer",
+            "screenshot": "screenshots\/byteskill-footer.jpg",
+            "source": "templates\/byteskill-footer.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/?elementor_library=byteskill-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "ByteSkill - Header",
+            "screenshot": "screenshots\/byteskill-header.jpg",
+            "source": "templates\/byteskill-header.json",
+            "preview_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/?elementor_library=byteskill-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.9.0",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Skyboot Custom Icons for Elementor - Elementor Icons library",
+            "version": "1.0.6",
+            "file": "skyboot-custom-icons-for-elementor\/skyboot-custom-icons-for-elementor.php",
+            "author": "Skybootstrap"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.14.1",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "bg_header_3_.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/bg_header_3_-800x278.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                },
+                {
+                    "source": "templates\/byteskill-single-post.json",
+                    "name": "ByteSkill - Single post"
+                },
+                {
+                    "source": "templates\/byteskill-archive.json",
+                    "name": "ByteSkill - Archive"
+                }
+            ],
+            "filesize": 35360,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bg_header_2_.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/bg_header_2_-800x278.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                },
+                {
+                    "source": "templates\/byteskill-single-post.json",
+                    "name": "ByteSkill - Single post"
+                },
+                {
+                    "source": "templates\/byteskill-archive.json",
+                    "name": "ByteSkill - Archive"
+                }
+            ],
+            "filesize": 16382,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_2.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/img_2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 73639,
+            "dimensions": [
+                580,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-successful-student-or-designer-holding-lapto-L3XRULL"
+        },
+        {
+            "filename": "img_3.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/img_3.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 10664,
+            "dimensions": [
+                373,
+                348
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_5.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/img_5.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 2247,
+            "dimensions": [
+                100,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_6.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/img_6.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 2542,
+            "dimensions": [
+                100,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bg_memphis_1_.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/bg_memphis_1_-800x569.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/byteskill-error-404.json",
+                    "name": "ByteSkill - Error 404"
+                }
+            ],
+            "filesize": 147068,
+            "dimensions": [
+                1440,
+                1024
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "schoolgirl-using-tablet-computer-at-home-learning-having-fun-online.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/schoolgirl-using-tablet-computer-at-home-learning-having-fun-online-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                }
+            ],
+            "filesize": 92602,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-WVKL3JH"
+        },
+        {
+            "filename": "happy-female-student-using-desktop-pc-during-computer-class-and-looking-at-camera-.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/happy-female-student-using-desktop-pc-during-computer-class-and-looking-at-camera--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                }
+            ],
+            "filesize": 107015,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-LAEW27R"
+        },
+        {
+            "filename": "team-of-innovators-.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/team-of-innovators--800x540.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 151873,
+            "dimensions": [
+                1280,
+                863
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-CHGHTQN"
+        },
+        {
+            "filename": "happy-black-student-using-laptop-while-learning-with-her-friends-in-a-cafe-.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/happy-black-student-using-laptop-while-learning-with-her-friends-in-a-cafe--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                }
+            ],
+            "filesize": 111371,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7JZJ7CL"
+        },
+        {
+            "filename": "adult-students-cooperating-while-using-laptop-and-learning-in-hallway-at-the-university-.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/adult-students-cooperating-while-using-laptop-and-learning-in-hallway-at-the-university--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                }
+            ],
+            "filesize": 131882,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-5EEVXYW"
+        },
+        {
+            "filename": "students-meeting-in-cafe-learning-together-using-laptop-and-smartphones.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/students-meeting-in-cafe-learning-together-using-laptop-and-smartphones-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                }
+            ],
+            "filesize": 131713,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-UMVW3DH"
+        },
+        {
+            "filename": "programmer-using-laptop-and-pc-information-coding.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/programmer-using-laptop-and-pc-information-coding-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                }
+            ],
+            "filesize": 109646,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7MQUQ2T"
+        },
+        {
+            "filename": "videocall-conference-homeschooling-e-learning-on-distance-using-laptop-writing-homework-assignment.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/videocall-conference-homeschooling-e-learning-on-distance-using-laptop-writing-homework-assignment-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                }
+            ],
+            "filesize": 111913,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-HYCWPZC"
+        },
+        {
+            "filename": "bg_footer_.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/bg_footer_-800x278.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 21910,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo_8.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/logo_8.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 5706,
+            "dimensions": [
+                400,
+                125
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo_7.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/logo_7.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 5731,
+            "dimensions": [
+                400,
+                125
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo_6.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/logo_6.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 4434,
+            "dimensions": [
+                400,
+                125
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo_5.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/logo_5.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 5302,
+            "dimensions": [
+                400,
+                125
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo_4.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/logo_4.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 5672,
+            "dimensions": [
+                400,
+                125
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo_3.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/logo_3.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 6013,
+            "dimensions": [
+                400,
+                125
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo_2.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/logo_2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 4943,
+            "dimensions": [
+                400,
+                125
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo_1.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/logo_1.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 3871,
+            "dimensions": [
+                400,
+                125
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "technology-and-lifestyle-concept-portrait-of-excited-impressed-young-man-in-headphones-listening.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/technology-and-lifestyle-concept-portrait-of-excited-impressed-young-man-in-headphones-listening-800x320.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                }
+            ],
+            "filesize": 37043,
+            "dimensions": [
+                1280,
+                513
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-3WKSRCL"
+        },
+        {
+            "filename": "Google-Play.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/Google-Play.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/byteskill-footer.json",
+                    "name": "ByteSkill - Footer"
+                }
+            ],
+            "filesize": 5132,
+            "dimensions": [
+                216,
+                64
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "App-Store.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/App-Store.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/byteskill-footer.json",
+                    "name": "ByteSkill - Footer"
+                }
+            ],
+            "filesize": 3990,
+            "dimensions": [
+                216,
+                64
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "student-learning-on-laptop-indoors-educational-course-or-training-seminar-education-online.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/student-learning-on-laptop-indoors-educational-course-or-training-seminar-education-online-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                }
+            ],
+            "filesize": 121336,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KVM8BKJ"
+        },
+        {
+            "filename": "bg_header_4_.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/bg_header_4_-800x278.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 52922,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_1.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/img_1.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                }
+            ],
+            "filesize": 21066,
+            "dimensions": [
+                190,
+                152
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "13.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/13.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 25005,
+            "dimensions": [
+                376,
+                376
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-cropped-shot-of-people-from-different-countries--AK3VTBZ"
+        },
+        {
+            "filename": "9.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/9.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                }
+            ],
+            "filesize": 22542,
+            "dimensions": [
+                374,
+                374
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-cropped-shot-of-people-from-different-countries--AK3VTBZ"
+        },
+        {
+            "filename": "5.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/courses.json",
+                    "name": "Courses"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 22801,
+            "dimensions": [
+                374,
+                374
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-cropped-shot-of-people-from-different-countries--AK3VTBZ"
+        },
+        {
+            "filename": "woman-computer-and-hacker-with-music-headphones-and-programming-for-cybersecurity-thinking-radio.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/woman-computer-and-hacker-with-music-headphones-and-programming-for-cybersecurity-thinking-radio-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                }
+            ],
+            "filesize": 120496,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-D55B9VH"
+        },
+        {
+            "filename": "junior-dev-programmers-collaborating-on-group-project-compiling-algorithm-asking-senior-developer.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/junior-dev-programmers-collaborating-on-group-project-compiling-algorithm-asking-senior-developer-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                }
+            ],
+            "filesize": 155500,
+            "dimensions": [
+                1280,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QKC72AL"
+        },
+        {
+            "filename": "creative-team-in-action-.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/creative-team-in-action--800x1199.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 416464,
+            "dimensions": [
+                1280,
+                1918
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KRQGF8N"
+        },
+        {
+            "filename": "bg_img.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/bg_img.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/bootcamp.json",
+                    "name": "Bootcamp"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 28536,
+            "dimensions": [
+                235,
+                70
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-cropped-shot-of-people-from-different-countries--AK3VTBZ"
+        },
+        {
+            "filename": "business-people-analyzing-statistics-financial-analysis-data-chart-graph-concept.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/business-people-analyzing-statistics-financial-analysis-data-chart-graph-concept-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                }
+            ],
+            "filesize": 338767,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KT4Y7HT"
+        },
+        {
+            "filename": "3.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-course.json",
+                    "name": "Single Course"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 20275,
+            "dimensions": [
+                378,
+                378
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-cropped-shot-of-people-from-different-countries--AK3VTBZ"
+        },
+        {
+            "filename": "Payment-Icon.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/Payment-Icon-800x133.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                }
+            ],
+            "filesize": 29013,
+            "dimensions": [
+                1111,
+                185
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "startup-employee-working-on-computer.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/startup-employee-working-on-computer-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 108676,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-BX79MTB"
+        },
+        {
+            "filename": "symbolizing-unity-and-teamwork.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/symbolizing-unity-and-teamwork-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 307336,
+            "dimensions": [
+                1280,
+                1920
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PKP4FWQ"
+        },
+        {
+            "filename": "multiracial-business-team-having-a-meeting-in-the-office.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/multiracial-business-team-having-a-meeting-in-the-office-800x532.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 145846,
+            "dimensions": [
+                1280,
+                852
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AMAA599"
+        },
+        {
+            "filename": "8.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 26601,
+            "dimensions": [
+                374,
+                374
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-cropped-shot-of-people-from-different-countries--AK3VTBZ"
+        },
+        {
+            "filename": "10.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/10.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 24270,
+            "dimensions": [
+                374,
+                374
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-cropped-shot-of-people-from-different-countries--AK3VTBZ"
+        },
+        {
+            "filename": "4.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 20821,
+            "dimensions": [
+                378,
+                378
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-cropped-shot-of-people-from-different-countries--AK3VTBZ"
+        },
+        {
+            "filename": "14.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/14.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 23324,
+            "dimensions": [
+                376,
+                376
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-cropped-shot-of-people-from-different-countries--AK3VTBZ"
+        },
+        {
+            "filename": "16.jpg",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/16.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 23472,
+            "dimensions": [
+                376,
+                376
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/a-cropped-shot-of-people-from-different-countries--AK3VTBZ"
+        },
+        {
+            "filename": "bg_footer.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/bg_footer-800x278.png",
+            "templates": [
+                {
+                    "source": "templates\/byteskill-footer.json",
+                    "name": "ByteSkill - Footer"
+                }
+            ],
+            "filesize": 241645,
+            "dimensions": [
+                1440,
+                500
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logo_ByteSkill.png",
+            "thumbnail_url": "https:\/\/kitdemo.moxcreative.com\/byteskill\/wp-content\/uploads\/sites\/9\/2023\/07\/Logo_ByteSkill.png",
+            "templates": [
+                {
+                    "source": "templates\/byteskill-footer.json",
+                    "name": "ByteSkill - Footer"
+                },
+                {
+                    "source": "templates\/byteskill-header.json",
+                    "name": "ByteSkill - Header"
+                }
+            ],
+            "filesize": 17373,
+            "dimensions": [
+                535,
+                150
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

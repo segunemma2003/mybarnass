@@ -1,0 +1,110 @@
+/*
+
+    The following CSS codes are created by the YellowPencil plugin.
+    https://yellowpencil.waspthemes.com/
+
+
+    T A B L E   O F   C O N T E N T S
+    ........................................................................
+
+    01. "Courses" Page
+    02. "Introduction to Dobot" Courses
+
+*/
+
+
+
+/*-----------------------------------------------*/
+/*  "Courses" Page                               */
+/*-----------------------------------------------*/
+body.page-id-17 .course-archive-page .tutor-col-12{
+	padding-bottom:44px;
+}
+
+@media (max-width:640px){
+
+	body.page-id-17 .course-archive-page .tutor-col-12{
+	padding-bottom:51px;
+	}
+
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Introduction to Dobot" Courses              */
+/*-----------------------------------------------*/
+body.postid-171 .hentry .tutor-course-details-page{
+	padding-top:39px;
+}
+
+body.postid-171 .tutor-card-body .tutor-course-progress-wrapper h3{
+	color:#2c3e50;
+}
+
+body.postid-171 .tutor-sidebar-card .tutor-card-body a{
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+	color:#e4e4e6;
+}
+
+body.postid-171 .tutor-course-details-tab .tutor-is-sticky nav{
+	background-color:#9366c0;
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body.postid-171 #tutor-course-details-tab-info .tutor-color-secondary{
+	color:#bdc3c7;
+}
+
+body.postid-171 #tutor-course-details-tab-info .tutor-course-details-widget span{
+	color:#bdc3c7;
+}
+
+body.postid-171 .tutor-accordion .tutor-accordion-item h4{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+	color:#8e44ad;
+}
+
+body.postid-171 .tutor-accordion .tutor-d-flex a{
+	color:#34495e;
+}
+
+body.postid-171 .hentry{
+	margin-bottom:45px;
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+	padding-top:13px;
+}
+
+body.postid-171 .tutor-single-course-sidebar-more .tutor-course-details-instructors h3{
+	color:#34495e;
+}
+
+body.postid-171 .tutor-single-course-sidebar-more .tutor-course-details-widget .tutor-course-details-widget-title{
+	color:#34495e;
+}
+
+body.postid-171 .tutor-nav .tutor-nav-item a{
+	color:#ecf0f1;
+}
+
+@media (max-width:400px){
+
+	body.postid-171 #tutor-course-details-tab-info .tutor-color-secondary{
+	font-size:13px;
+	word-spacing:-1.2px;
+}
+
+body.postid-171 #tutor-course-details-tab-info .tutor-course-details-widget span{
+	font-size:13px;
+	word-spacing:-1.2px;
+}
+
+body.postid-171 .tutor-single-course-sidebar-more .tutor-course-details-widget .tutor-course-details-widget-list{
+	font-size:13px;
+	}
+
+}
